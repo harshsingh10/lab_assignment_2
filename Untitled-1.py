@@ -11,13 +11,8 @@ employee2 = Employee(emp_id="171E22", name="Tejas", age=30, salary=82100)
 employee3 = Employee(emp_id="171G55", name="Abhi", age=25, salary=100000)
 employee4 = Employee(emp_id="151K46", name="Jaya", age=32, salary=85000)
 
-print("Employee ID:", employee1.emp_id)
-print("Name:", employee1.name)
-print("Age:", employee1.age)
-print("Salary (PM):", employee1.salary)
 
 employees = [employee1, employee2, employee3, employee4]
-
 
 print("press 1 to sort by age")
 print("press 2 to sort by name")
@@ -32,7 +27,6 @@ elif x == 3:
 else:
     print("Invalid input")
 
-# Print sorted employees
 for emp in sorted_employees:
     print("Employee ID:", emp.emp_id)
     print("Name:", emp.name)
